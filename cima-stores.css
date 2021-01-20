@@ -1,0 +1,55 @@
+body{
+  font-family: 'Cairo',serif;
+  }
+  .plyr--video {
+    background: #000;
+    overflow: hidden;
+}
+ 
+      .Button, button, input[type="button"], input[type="reset"], input[type="submit"]{
+      box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0);
+      
+      }
+.plyr--full-ui a, .plyr--full-ui button, .plyr--full-ui input, .plyr--full-ui label {
+    touch-action: manipulation;
+    margin: 0;
+        margin-right: 0px;
+        margin-left: 0px;
+}
+  header #top-bar .search input{
+  margin-right: -31px;
+  
+  }
+  [type="checkbox"], [type="radio"]{
+  display: none;
+  
+  }
+    ul, ol, dl, dl dt, dl dd, h1, h2, h3, h4, h5, h6, p, blockquote, table, input, textarea, button, select, [class*="Form-"] {
+    margin-bottom: 0rem;
+}
+      .plyr__volume input[type="range"]{
+      margin-bottom: 7px;
+      }
+      .plyr__progress input[type="range"]{
+      
+            margin-bottom: 7px;
+      }
+  .plyr__progress__buffer {
+    top: 50%;
+}
+      @media(max-width:550px){
+  .plyr--video {
+    background: #000;
+    overflow: hidden;height: 290px;
+
+  }
+}
+      iframe {
+    height: 500px;
+}
+         .side-right{
+      
+      float: none;
+    margin: auto;
+      
+      }   
